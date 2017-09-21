@@ -6,11 +6,12 @@ module.exports = {
     },
     module: {
         loaders:[{
+            test : /\.jsx?$/,
             loader : 'babel-loader',
             query : {
                 presets : ['react','es2015']
             },
-            test : /\.jsx?$/,
+
             exclude : /node_modules/
         }]
     }

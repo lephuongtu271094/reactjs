@@ -1,6 +1,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+require('style-loader!css-loader!./name.css')
 
 class Hello extends React.Component{
     constructor(props){

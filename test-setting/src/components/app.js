@@ -71,3 +71,10 @@ export default App
 // Khong duoc choc thang vao state, vi du state.name = state.name + 1
 // let newValue = state.name + 1
 // this.setState({ name : newValue }) chu khong duoc state.name += 1;
+
+// ten component phai viet hoa chu cai dau de ReactDom khong hieu nham no la the html
+// phuong thuc trong component su dung tu khoa this de truy van du lieu cua component (vi du this.props, this.state)
+// phai co phan khai bao .bind(this), 
+// trong phuong thuc render(){} thi khong can
+
+//git : DaveNguyenHuy

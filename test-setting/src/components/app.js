@@ -65,4 +65,9 @@ export default App
 //     })
 // }
 
-//Css kieu React
+//Not quan trong ve setState
+// Khai bao state tai phuong thuc constructor(pros){ this.state = { key : value }  }
+// State chi duoc thay doi bang cau lenh this.setState({ key : newValue, key2 : newValue } )
+// Khong duoc choc thang vao state, vi du state.name = state.name + 1
+// let newValue = state.name + 1
+// this.setState({ name : newValue }) chu khong duoc state.name += 1;
